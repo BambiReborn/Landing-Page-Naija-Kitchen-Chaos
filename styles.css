@@ -11,6 +11,7 @@
     --orangeWriteUp: #FFB54D;
     --playBTN: #FFC16B;
     --CTAsWriteUp: #F9F9F9;
+    --CTAsWriteUp2: #FFFF;
     --scrollBTN: #332F2F;
 
     /* FONTS */
@@ -22,8 +23,314 @@
 
 }
 
+body {
+    background-color: var(--pageColor);
+    margin: 50px;
+}
+
 
 /* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+    padding: 20px 50px 20px 50px;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; */
+    /* border-bottom: 1px solid #F9F9F9; */
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 20rem;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    font-family: var(--fontBody);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--writeUps);
+
+    &:hover {
+        cursor: pointer;
+        color: var(--orangeWriteUp);
+    }
+}
+
+#nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+    width: 6rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--playBTN);
+    background-color: var(--playBTN);
+    color: var(--CTAsWriteUp2);
+    /* transition: transform 0.2s ease; */
+
+    &:hover {
+        cursor: pointer;
+        background-color: #ffc16bcb;
+        /* transform: scale(1.05); */
+
+    }
+}
 
 
+/* HERO SECTION */
+#hero-section {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* gap: 2rem; */
+    padding: 50px;
+    height: 100vh;
+    /* margin-top: 100px; */
+    /* border-top: 1px solid #F9F9F9; */
+}
 
+#hero-section #text-side {
+    margin-top: 40px;
+    width: 30rem;
+    /* border: 1px solid #F9F9F9; */
+}
+
+#hero-section #text-side h4 {
+    font-family: var(--fontHead);
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--writeUps);
+}
+
+#hero-section #text-side h3 {
+    font-family: var(--fontHead);
+    font-size: 2.5em;
+    font-weight: 600;
+    color: var(--headWriteUp);
+    margin-top: 10px;
+}
+
+#hero-section #text-side p {
+    font-family: var(--fontBody);
+    font-size: 1.1em;
+    font-weight: 400;
+    word-spacing: 2px;
+    color: var(--writeUps);
+    margin-top: 20px;
+}
+
+#hero-CTAs {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#hero-playNow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--playBTN);
+    background-color: var(--playBTN);
+    color: var(--CTAsWriteUp2);
+    /* transition: transform 0.2s ease; */
+
+    &:hover {
+        cursor: pointer;
+        background-color: #ffc16bcb;
+        /* transform: scale(1.05); */
+
+    }
+}
+
+#hero-watchTrailer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 10rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--playBTN);
+    color: var(--CTAsWriteUp2);
+    background-color: var(--pageColor);
+
+    &:hover {
+        cursor: pointer;
+        border: none;
+        border-bottom: 1px solid var(--playBTN);
+    }
+}
+
+/* IMAGE SIDE */
+#hero-section #image-side {
+    margin-top: 50px;
+    width: 55rem;
+    /* border: 1px solid #FFFF; */
+}
+
+#hero-section #image-side img {
+    width: 100%;
+}
+
+
+/* ABOUT THE GAME SECTION */
+#aboutGame-section {
+    display: flex;
+    justify-content: spa;
+    align-items: center;
+    gap: 20rem;
+    /* padding: 50px; */
+    margin: 0px 50px 0px 50px;
+    border-radius: 10px;
+    border-top: 1px solid #FFB54D;
+   
+}
+
+#aboutGame-section #text-side h4 {
+    font-family: var(--fontHead);
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--writeUps);
+}
+
+#aboutGame-section #text-side h3 {
+    font-family: var(--fontHead);
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--headWriteUp);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#aboutGame-section #text-side p {
+    font-family: var(--fontHead);
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--writeUps);
+    margin-top: 10px;
+}
+
+#aboutGame-section #image-side {
+    margin-top: 20px;
+}
+
+
+/* GAME FEATURES SECTION */
+#gameFts-section {
+    padding: 50px;
+}
+
+#line-head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 5px; */
+    margin-top: 50px;
+}
+
+#line-head h5 {
+    color: #FFB54D;
+    transform: scaleX(50);
+}
+
+#line-head h3 {
+    font-family: var(--fontHead);
+    font-weight: 600;
+    font-size: 1.5em;
+    color: var(--headWriteUp);
+}
+
+
+/* GAME FEATURES CARDS */
+.scrollCards-div {
+    padding: 32px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll-btn-left,
+.scroll-btn-right {
+    background: var(--scrollBTN);
+    border: 1.5px solid #FFB54D;
+    color: #FFB54D;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    flex: 1;
+    padding: 4px 2px;
+}
+
+.cards-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.gameFts-cards {
+    border: 1.5px solid #FFB54D;
+    border-radius: 14px;
+    padding: 50px 5px 5px 5px;
+    min-width: 15rem;
+    max-width: 15rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gameFts-cards img {
+    width: 10rem;
+    height: 68px;
+    object-fit: contain;
+    margin-bottom: 14px;
+}
+
+.gameFts-cards .writeUp-wrapper h3 {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    line-height: 1.4;
+}
+
+.gameFts-cards .writeUp-wrapper p {
+    color: #b0a080;
+    font-size: 11px;
+    line-height: 1.55;
+    margin: 0;
+    font-weight: 400;
+}

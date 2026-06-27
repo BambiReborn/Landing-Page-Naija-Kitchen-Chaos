@@ -18,6 +18,10 @@ This is the official promotional landing page for Naija Kitchen Chaos. Built to 
 - CSS3
 - JavaScript
 
+## Why HTML, CSS and JavaScript
+
+This project is a static promotional landing page with no dynamic data or complex state management, making HTML, CSS and JavaScript the most efficient and appropriate choice for the job.
+
 ## Sections
 
 - **Navbar** — Logo, navigation links and Play Now button
