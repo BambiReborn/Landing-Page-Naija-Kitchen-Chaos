@@ -40,59 +40,50 @@ Or if using Live Server in VS Code:
 ## Group 11 — Team
 
 **Product Owner**
-| Name          |           Role |
-|------|------|
+
 | Ebuka Nwaudah | Product Manager |
 
 **Scrum Master**
-| Name          |           Role |
-|------|------|
+
 | Anastasia Ekpanja | Project Manager |
 
 ---
 
 **Development Team**
-| Name          |           Role |
-|------|------|
+
 | Tobechukwu Aki | Development Team Lead |
 
 **Game Development**
-| Name          |           Role |
-|------|------|
+
 | Tobechukwu Aki | Game Dev. and Lead |
 | Jachike Ibeneme | Game Dev. |
 | Nduche Anidi | Game Dev. |
 
 **Frontend Development**
-| Name          |           Role |
-|------|------|
+
 | Chukwuemeka Udeh | Frontend Dev. and Lead |
 | Charles Maduka | Frontend Dev. |
 | Adaeze Simon | Frontend Dev. |
 
 **Product Design**
-| Name          |           Role |
-|------|------|
+
 | Ifechukwu Okoli | Product Designer and Lead |
 | Gerald Makuochukwu | Product Designer |
 | Anosike Sandra Eleganza | Product Designer |
 
 **Data Analysis**
-| Name          |           Role |
-|------|------|
+
 | Christian Orji | Data Analyst and Lead |
 | Ego Onwudiegwu | Data Analyst |
 | Ositadimma Nwaigwe | Data Analyst |
 | Amarachi Jideofor | Data Analyst |
 
 **Digital Marketing**
-| Name          |           Role |
-|------|------|
+
 | Obianuji Nnaji | Digital Marketing |
 
 **Cyber Security**
-| Name          |           Role |
-|------|------|
+
 | Kelly Nwanji | Cyber Security |
 
 ---
