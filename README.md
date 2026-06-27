@@ -41,38 +41,45 @@ Or if using Live Server in VS Code:
 
 **Product Owner**
 
+|------|------|
 | Ebuka Nwaudah | Product Manager |
 
 **Scrum Master**
 
+|------|------|
 | Anastasia Ekpanja | Project Manager |
 
 ---
 
 **Development Team**
 
+|------|------|
 | Tobechukwu Aki | Development Team Lead |
 
 **Game Development**
 
+|------|------|
 | Tobechukwu Aki | Game Dev. and Lead |
 | Jachike Ibeneme | Game Dev. |
 | Nduche Anidi | Game Dev. |
 
 **Frontend Development**
 
+|------|------|
 | Chukwuemeka Udeh | Frontend Dev. and Lead |
 | Charles Maduka | Frontend Dev. |
 | Adaeze Simon | Frontend Dev. |
 
 **Product Design**
 
+|------|------|
 | Ifechukwu Okoli | Product Designer and Lead |
 | Gerald Makuochukwu | Product Designer |
 | Anosike Sandra Eleganza | Product Designer |
 
 **Data Analysis**
 
+|------|------|
 | Christian Orji | Data Analyst and Lead |
 | Ego Onwudiegwu | Data Analyst |
 | Ositadimma Nwaigwe | Data Analyst |
@@ -80,10 +87,12 @@ Or if using Live Server in VS Code:
 
 **Digital Marketing**
 
+|------|------|
 | Obianuji Nnaji | Digital Marketing |
 
 **Cyber Security**
 
+|------|------|
 | Kelly Nwanji | Cyber Security |
 
 ---
