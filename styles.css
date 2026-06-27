@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ROOT */
+:root {
+    --pageColor: #201616;
+    --headWriteUp: #FFFF;
+    --writeUps: #ADACAC;
+    --orangeWriteUp: #FFB54D;
+    --playBTN: #FFC16B;
+    --CTAsWriteUp: #F9F9F9;
+    --scrollBTN: #332F2F;
+
+    /* FONTS */
+    /* Headings */
+    --fontHead: 'Sora', sans-serif;
+    
+    /* Body */
+    --fontBody: 'Manrope', sans-serif;
+
+}
+
+
+/* HEADER */
+
+
+
