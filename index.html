@@ -1,13 +1,249 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>landingpage-niaja-kitchen-chaos</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us – Naija Kitchen Chaos</title>
+</head>
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header>
+    <nav>
+      <a href="/" aria-label="Naija Kitchen Chaos Home">
+        <img src="assets/icons/Logo.png" alt="Naija Kitchen Chaos logo" width="60" height="40" />
+      </a>
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/about" aria-current="page">About</a></li>
+        <li><a href="/features">Features</a></li>
+        <li><a href="/levels">Levels</a></li>
+        <li><a href="/characters">Characters</a></li>
+        <li><a href="/download">Download</a></li>
+      </ul>
+      <a href="/play" class="btn-primary">Play Now</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO / ABOUT US INTRO ========== -->
+    <section aria-labelledby="about-heading">
+      <div class="hero-content">
+        <p class="eyebrow">About Us</p>
+        <h1 id="about-heading">
+          Made with Passion. Cooked with
+          <span class="highlight">Culture.</span>
+        </h1>
+        <p>
+          Naija Kitchen Chaos is a multiplayer cooking game that celebrates the
+          rich flavors, fun, chaotic &amp; fast-paced energy of Nigerian kitchens.
+        </p>
+        <p>
+          We bring friends together to chop, cook, and serve authentic Nigerian
+          dishes before time runs out!
+        </p>
+        <div class="hero-actions">
+          <a href="/play" class="btn-primary">Play Now</a>
+          <a href="/trailer" class="btn-secondary">
+            <img src="assets/icons/Playicon.png" alt="" aria-hidden="true" />
+            Watch Trailer
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <!-- Game characters illustration -->
+        <img
+          src="assets/images/Heroimage.png"
+          alt="Two animated chef characters cooking energetically"
+        />
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- ========== OUR STORY ========== -->
+    <section aria-labelledby="story-heading">
+      <p class="eyebrow">Our Story</p>
+      <h2 id="story-heading">
+        The Story Behind
+        <span class="highlight">The Chaos</span>
+      </h2>
+      <p>
+        We are a team of dreamers, gamers, food lovers on a mission to celebrate
+        the African culinary heritage through fun and immersive gameplay.
+      </p>
+      <p>
+        Every dish, every level, and every moment is crafted to give you the real
+        taste of Nigeria in the most chaotic way possible.
+      </p>
+
+      <div class="ourstory-visual">
+        <!-- Game characters illustration -->
+        <img
+          src="assets/images/Ourstoryhero.png"
+          alt="Four animated chef characters cooking energetically"
+        />
+      </div>
+    </section>
+
+    <!-- ========== STATS ========== -->
+    <section aria-label="Game statistics">
+      <ul class="stats-grid">
+        <li class="stat-card">
+          <img src="assets/icons/groupicon.png" alt="" aria-hidden="true" />
+          <strong>50K+</strong>
+          <span>Players Worldwide</span>
+        </li>
+        <li class="stat-card">
+          <img src="assets/icons/hotfood.png" alt="" aria-hidden="true" />
+          <strong>100+</strong>
+          <span>Authentic Recipes</span>
+        </li>
+        <li class="stat-card">
+          <img src="assets/icons/Gamepad.png" alt="" aria-hidden="true" />
+          <strong>25+</strong>
+          <span>Exciting Levels</span>
+        </li>
+        <li class="stat-card">
+          <img src="assets/icons/star-rating.png" alt="" aria-hidden="true" />
+          <strong>4.9</strong>
+          <span>Community Rating</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ========== OUR VALUES ========== -->
+    <section aria-labelledby="values-heading">
+      <p class="eyebrow" id="values-heading">Our Values</p>
+      <ul class="values-grid">
+        <li class="value-card">
+          <img src="assets/icons/teamwork.png" alt="" aria-hidden="true" />
+          <h3>Teamwork</h3>
+          <p>Work together, communicate and win as a team.</p>
+        </li>
+        <li class="value-card">
+          <img src="assets/icons/culture.png" alt="" aria-hidden="true" />
+          <h3>Culture</h3>
+          <p>Authentic Nigerian dishes made with love.</p>
+        </li>
+        <li class="value-card">
+          <img src="assets/icons/excitement.png" alt="" aria-hidden="true" />
+          <h3>Excitement</h3>
+          <p>Fast paced fun that keeps you on your toes.</p>
+        </li>
+        <li class="value-card">
+          <img src="assets/icons/community.png" alt="" aria-hidden="true" />
+          <h3>Community</h3>
+          <p>Building a global community of food and game lovers.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section aria-labelledby="cta-heading" class="cta-banner">
+      <figure class="cta-visual">
+        <img
+          src="assets/images/Cta-banner-image.png"
+          alt="A fiery pot of stew bubbling with vegetables"
+        />
+      </figure>
+      <div class="cta-content">
+        <h2 id="cta-heading">
+          Ready to
+          <span class="highlight">Bring the Heat?</span>
+        </h2>
+        <p>Jump in, cook fast and serve before it burns.</p>
+        <a href="/play" class="btn-primary">Join the Kitchen</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer-brand">
+      <img src="assets/icons/Logo.png" alt="Naija Kitchen Chaos" width="60" height="40" />
+      <p>Cook together. Laugh together. Win together.</p>
+    </div>
+
+    <nav aria-label="Quick Links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/features">Features</a></li>
+        <li><a href="/levels">Levels</a></li>
+        <li><a href="/characters">Characters</a></li>
+        <li><a href="/download">Download</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Support">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/community">Community</a></li>
+        <li><a href="/report">Report a Bug</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <ul>
+        <li>
+          <a href="https://x.com/naijakchaos" aria-label="X (Twitter)">
+            <img src="assets/icons/X Icon.png" alt="X" width="24" height="24" />
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/naijakchaos" aria-label="Instagram">
+            <img src="assets/icons/Instagram icon.png" alt="Instagram" width="24" height="24" />
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.gg/naijakchaos" aria-label="Discord">
+            <img src="assets/icons/Discord Icon.png" alt="Discord" width="24" height="24" />
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com/naijakchaos" aria-label="YouTube">
+            <img src="assets/icons/Youtube Icon.png" alt="YouTube" width="24" height="24" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-newsletter">
+      <h4>Join the Kitchen Crew</h4>
+      <p>Get updates, news and delicious chaos straight to your inbox!</p>
+      <form action="/newsletter" method="post">
+        <label for="email" class="sr-only">Your email address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+          autocomplete="email"
+        />
+        <button type="submit" aria-label="Subscribe">
+          <img src="assets/icons/arrow-right.png" alt="" aria-hidden="true" /> </button>
+      </form>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        <small>2026 Naija Kitchen Chaos. All rights reserved</small>
+      </p>
+      <nav aria-label="Legal">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Use</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
 </html>
