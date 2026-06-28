@@ -94,7 +94,7 @@
 
         <!--GAME FEATURES-SECTION-->
         <section id="gameFts-section">
-            <div id="line-head">
+            <div class="line-head">
                 <h5>
                     <i class="fa-solid fa-minus"></i>
                 </h5>
@@ -203,15 +203,17 @@
         
         <!--MEET THE CHEFS-SECTION-->
         <section id="meetChefs-section">
-            <h3>
-                <i class="fa-solid fa-minus"></i>
-            </h3>
-            <h3>
-                GAME FEATURES
-            </h3>
-            <h3>
-                <i class="fa-solid fa-minus"></i>
-            </h3>
+            <div class="line-head">
+                <h5>
+                    <i class="fa-solid fa-minus"></i>
+                </h5>
+                <h3>
+                    MEET THE CHEFS
+                </h3>
+                <h5>
+                    <i class="fa-solid fa-minus"></i>
+                </h5>
+            </div>
 
            <div class="scrollCards-div">
                 <button class="scroll-btn-left" id="scrollLeft"><i class="fa-solid fa-angle-left"></i></button>
@@ -223,7 +225,7 @@
 
                         <div class="writeUp-wrapper">
                             <h3>
-                                MAMA BISI
+                                MAMA NGOZI
                             </h3>
                             <h4>
                                 The Veteran
@@ -259,7 +261,7 @@
 
                         <div class="writeUp-wrapper">
                             <h3>
-                                AMINA
+                                NGOZI
                             </h3>
                             <h4>
                                 The Organizer
@@ -339,11 +341,11 @@
             </div>
         </section>
 
-        <!--FOOTER-->
-        <footer>
-            <div id="footer-wrapper">
+        <!--CLOSURE SECTION-->
+        <section id="closure-section">
+            <div id="closure-wrapper">
                 <!--FOOTER-LOGO-->
-                <div id="footer-logo">
+                <div id="closure-logo">
                     <img src="assets/logo.png" alt="Naija Kitchen Chaos - Logo" />
                     <div>
                         <p>Cook together.</p>
@@ -360,7 +362,7 @@
 
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">AboutT</a></li>
+                        <li><a href="#">About</a></li>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Levels</a></li>
                         <li><a href="#">Characters</a></li>
@@ -383,16 +385,16 @@
                 </div>
 
                 <!--FOLLOW US-->
-                <div id="footer-socials">
+                <div id="closure-socials">
                     <h4>
                         FOLLOW US
                     </h4>
 
                     <div id="social-icons">
-                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-discord"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter" id="x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord" id="discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube" id="youtube"></i></a>
                     </div>
                 </div>
 
@@ -406,28 +408,30 @@
                         chaos straight to you inbox!
                     </p>
 
-                    <div id="email-input-div">
-                        <input type="email" id="email-input" placeholder="Enter your email" required>
-                        <button id="emailBTN" type="button"><i class="fa-solid fa-arrow-right"></i></button>
-                    </div>
+                    <form id="email-input-div" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+                        <input type="hidden" name="subject" value="New Newsletter Subscriber">
+                        <input type="email" id="email-input" name="email" placeholder="Enter your email" required>
+                        <button id="emailBTN" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
                 </div>
-
-                <!--FOOTER-BOTTOM-->
-                <hr id="footer-line">
-                <div id="footer-bottom">
-                    <p>
-                        2026 Naija Kitchen Chaos. All rights reserved
-                    </p>
-
-                    <nav id="footer-nav">
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Use</a>
-                    </nav>
-                </div>
-
             </div>
+        </section>
+
+
+        <!--FOOTER-->
+        <footer>
+            <h4>
+                2026 Naija Kitchen Chaos. All rights reserved
+            </h4>
+            <a href="#" id="footer-privacyPolicy">Privacy Policy</a>
+            <a href="#" id="footer-termsOfUse">Terms of Use</a>
         </footer>
     </main>
     
+
+
+    <!--JS ANCHOR LINK-->
+    <script src="script.js"></script>
 </body>
 </html>

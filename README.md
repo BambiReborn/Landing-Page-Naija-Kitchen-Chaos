@@ -84,9 +84,9 @@ Or if using Live Server in VS Code:
 **Data Analysis**
 | Name          |           Role |
 |------|------|
-| Christian Orji | Data Analyst and Lead |
+| Ositadimma Nwaigwe | Data Analyst and Lead |
 | Ego Onwudiegwu | Data Analyst |
-| Ositadimma Nwaigwe | Data Analyst |
+| Christian Orji | Data Analyst |
 | Amarachi Jideofor | Data Analyst |
 
 **Digital Marketing**
