@@ -12,6 +12,10 @@ Team up with friends, cook alongside an AI sous-chef, and survive increasingly d
 
 This is the official promotional landing page for Naija Kitchen Chaos. Built to introduce the game, showcase its features and characters, and drive players to download or play.
 
+## Deployed Site
+Click below to access the live demo
+[Naija Kitchen Chaos](https://naija-kitchen-chaos.vercel.app/)
+
 ## Built With
 
 - HTML5
