@@ -109,16 +109,16 @@ header {
     /* border: 1px solid #F9F9F9; */
 }
 
-#hero-section #text-side h4 {
+/* #hero-section #text-side h4 {
     font-family: var(--fontHead);
     font-size: 1.5em;
     font-weight: 600;
     color: var(--writeUps);
-}
+} */
 
 #hero-section #text-side h3 {
     font-family: var(--fontHead);
-    font-size: 2.5em;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--headWriteUp);
     margin-top: 10px;
@@ -670,19 +670,23 @@ footer h4 {
 }
 
 
-@media (max-width: 1384px) {
+@media (max-width: 1388px) {
     #nav-bar{
         display: flex;
         margin-left: 15rem;
-        gap: 20px;
+        gap: 2rem;
     }
 
-    #hero-section #text-side h4 {
-        font-size: 1.3rem;
+    #nav-btn {
+        margin-left: 10rem;
     }
+
+    /* #hero-section #text-side h4 {
+        font-size: 1.3rem;
+    } */
 
     #hero-section #text-side h3 {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     #hero-section #text-side p {
@@ -724,24 +728,26 @@ footer h4 {
 }
 
 /* SCREEN 1366 */
-@media (max-width: 1367px) {
+@media (max-width: 1368px) {
     #nav-bar {
-        gap: 30px;
+        gap: 2rem;
+        margin-left: 13rem;
     }
     #nav-bar a {
         font-size: 1rem;
     }
 
     #nav-btn {
-        margin-left: 10rem;
+        margin-left: 8rem;
+        width: 7rem;
     }
 
-    #hero-section #text-side h4 {
+    /* #hero-section #text-side h4 {
         font-size: 1.2rem;
-    }
+    } */
 
     #hero-section #text-side h3 {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
 
     #hero-section #text-side p {
@@ -758,7 +764,12 @@ footer h4 {
     }
 
     #aboutGame-section #text-side p {
-            font-size: 1rem;
+        font-size: 1rem;
+    }
+
+    /* GAME FEATURESn*/
+    .line-head h5 {
+        transform: scaleX(40);
     }
 
     /* READY TO SURVIVE SECTION */
@@ -776,17 +787,26 @@ footer h4 {
 }
 
 /* SCREEN 1281 */
-@media (max-width: 1281px) {
+/* @media (max-width: 1281px) {
     #nav-bar {
-        margin-left: 13rem;
+        margin-left: 8rem;
+        margin-right: 0;
+        justify-content: center;
+        gap: 1rem;
     }
-    #nav-btn {
-        width: 7rem;
-        padding: 1em;
+    
+    #nav-bar a {
+        font-size: 0.95rem;
     }
 
+    #nav-btn {
+        width: 6rem;
+        padding: 0.9em;
+        margin-left: 0;
+    } */
+
     /* ABOUT SECTION */
-    #aboutGame-section #text-side h4 {
+    /* #aboutGame-section #text-side h4 {
         font-size: 1.3rem;
     }
     #aboutGame-section #text-side h3 {
@@ -795,29 +815,35 @@ footer h4 {
 
     #aboutGame-section #text-side p {
         font-size: 0.91rem;
-    }
+    } */
 
     /* GAME FEATURES */
-    .line-head h5 {
+    /* .line-head h5 {
         transform: scaleX(40);
     }
 
     .line-head h3 {
         font-size: 1.5rem;
-    }
+    } */
 
     /* SURVIVE KITCHEN */
-    #surviveKitchen-section #text-side h3 {
+    /* #surviveKitchen-section #text-side h3 {
         font-size: 1.5rem;
     }
-}
+} */
 
 
 
 /* SCREEN 1025 */
-@media (max-width: 1025px) {
+@media (max-width: 1026px) {
+    header { padding: 10px; }
+
     #nav-bar {
-        margin-left: 8rem;
+        margin-left: 10rem;
+        margin-right: 0;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
     }
 
     #nav-bar a {
@@ -825,19 +851,18 @@ footer h4 {
     }
 
     #nav-btn {
-        width: 15rem;
+        width: 6rem;
         padding: 0.8em;
-        margin-left: 8rem;
-        font-size: 0.8rem
-        
+        margin-left: 5rem;
+        font-size: 0.8rem;
     }
 
-    #hero-section #text-side h4 {
+    /* #hero-section #text-side h4 {
         font-size: 1rem;
-    }
+    } */
 
     #hero-section #text-side h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     #hero-section #text-side p {
