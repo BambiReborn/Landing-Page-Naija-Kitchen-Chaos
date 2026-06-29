@@ -83,8 +83,11 @@ header {
     border: 1px solid var(--playBTN);
     background-color: var(--playBTN);
     color: var(--CTAsWriteUp2);
+
     /* transition: transform 0.2s ease; */
 }
+
+
 
 #nav-btn:hover {
     cursor: pointer;
